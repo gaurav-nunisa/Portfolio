@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo{
+    background-color: brown;
+}.nav-main-list{
+    background-color: aqua;
+    list-style-type: none;
+    display: flex;
+    flex-direction:row;
+   
+  
+    
+}
+.nav-social{
+    background-color: blue;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border: 2px solid black;
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    
+}.intro{
+    background-color: blueviolet;
+    order: 1;
+    width: 70%;
+}
+.profile-pic{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    order: 2;
+}
+.secondary-body{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-around;
+}
+.project-body{
+    background-color: #f7ff58;
+}
+.contact-body{
+    display: flex;
+    justify-content: space-around;
+    background: #f44bd7;
+}
+.footer p{
+    display: flex;
+    
+    
+}
